@@ -1,0 +1,28 @@
+
+
+Day1- Recording link :https://xoriant.kpoint.com/web/videos/gcc-90c9be4b-e855-48cf-9be6-b1b0cac1905c?qtext=%20git&score=2102&rank=6&vsrc=search
+
+
+Day 2 - Recording link https://xoriant.zoom.us/rec/share/HSQU72gE6IdVMJpwzJU3UAc0q146JS3kL64_yyu6QdAxEe-ywW3VIRkAGn4HOjs9.8Rf4XF3Sc5B9MRMt?startTime=1674037986000
+Passcode: a^B8xDty
+
+
+Day 3- Recording Link-https://xoriant.zoom.us/rec/share/Zibj4eZq5TJzztNvtafht-Oxuf2kHi7q6r4BMcwNL8zYigprHJhe2gcOcyY3sGQ8.-c25K_a8mTVRlC3H?startTime=1674124616000
+Passcode: E5?*Nxau
+
+
+
+How to Generate SSH key:
+ssh-keygen -t rsa -b 4096 -C "yourEmailID"
+ssh-keygen -t rsa -b 4096 -C "rameshkadam9029@gmail.com"
+
+Copy Key from GitBash:
+cat ~/.ssh/id_rsa.pub
+
+Add Your SSH key on your GitHub Account
+Click on User icon on Right top corner > Settings > Access > SSH & GPG Keys > SSH Key - New key > Enter copied value > Add key name as "SSH Key" > Click on "Add SSH Key"
+
+
+Set your name & email address on your machine through gitbash:
+1)git config --global user.email "you@example.com" 
+2)git config --global user.name "Your Name"
